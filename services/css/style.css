@@ -1,0 +1,155 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+nav{
+	padding: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	height: 80px;
+	overflow: hidden;
+}
+nav .nav-logo{
+	float: left;
+	padding: 10px;
+}
+nav .nav-logo h2{
+	font-weight: bold;
+}
+nav .menu{
+	padding-top: 17px;
+}
+nav .menu ul{
+	float: right;
+
+}
+nav .menu ul li{
+	padding: 5px;
+	display :inline;
+}
+nav .menu ul li a{
+	color: #ffffff;
+}
+.main-content{
+	background: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:700px;
+}
+.sys-users{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+.sys-items{
+	text-align: center;	
+}
+.sys-items .clinic-staff{
+	background-color: #959a9e;
+	padding: 15px;
+}
+.sys-items .clinic-staff img{
+	width: 300px;
+}
+.sys-items .admin-staff{
+	background-color: orange;
+	padding: 15px;
+}
+.sys-items .admin-staff img{
+	width: 300px;
+}
+.sys-items .record-staff{
+	background-color: #64905ade;
+	padding: 15px;
+}
+.sys-items .record-staff img{
+	width: 300px;
+}
+.footer{
+	padding:20px;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	height: 80px;
+}
+.footer h3{
+	padding: 10px;
+	font-weight: bold;
+}
+.log-main{
+	padding:0px;
+}
+.log{
+	position: relative;
+    top: 20px;
+    width: 35%;
+    left: 357px;
+    padding: 40px;
+	padding-top: 30px;
+    background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+.log h3{
+	font-weight: bold;
+	font-size: 25px;
+	color: orange;
+}
+.form-group{
+	padding: 5px;
+}
+.form-group input{
+	width: 70%;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.form-group textarea{
+	width: 70%;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+.btn-submit{
+	 background-color: #100f10;
+    width: 74% !important;
+	color: #ffffff;
+}
+.footer-log{
+	position: relative;
+	padding:20px;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	height: 70px;
+}
+
+
+#patient {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#patient td, #patient th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#patient tr:nth-child(even){background-color: #f2f2f2;}
+
+#patient tr:hover {background-color: #ddd;}
+
+#patient th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
